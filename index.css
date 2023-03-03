@@ -1,0 +1,945 @@
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+}
+
+    /* konten 1 */
+    .ke1{
+        position: relative;
+        height: 40rem;
+    }
+
+        .ke1 img{
+            width: 100%;
+            height: 40rem;
+            object-fit: cover;
+        }
+
+    .ke1 .kanan {
+        max-width: 13rem;
+        position: absolute;
+        text-align: right;
+        color: white;
+        top: 7rem;
+        right: 9rem;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: .8rem;
+        line-height: 1.1rem;
+    }
+
+        .ke1 .kanan a{
+            color: white;
+        }
+
+    .ke1 .bawah {
+        position: absolute;
+        bottom: 2rem;
+        left: 5rem;
+        color: white;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 3rem;
+        max-width: 100%;
+    }
+
+    /* akhir dari konten 1 */
+
+/* start of ke2 */
+.ke2 {
+    position: relative;
+}
+
+    .ijomuda,
+    .putih {
+        float: right;
+    }
+
+.item{
+    position: relative;
+    width: 40%;
+    height: 40rem;
+    background-color: black;
+    float: left;
+    color: white;
+    text-align: center;
+}
+
+    .ke2 .item .gb2{
+        border-radius: 50%;
+        width: 20rem;
+        height: 20rem;
+        background-image: url(/img/3.jpg);    
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin: 2rem auto;
+    }
+
+.ke2 .item .gb1 p{
+    font-family: 'Great Vibes', cursive;
+    font-size: 9rem;
+    font-style: italic;
+    margin-top: -9rem;
+    margin-left: -3rem;
+}
+
+    .ke2 .item .gb3{
+        margin-top: -7rem;
+        font-family: Roboto,sans-serif;
+        font-weight: 700;
+        line-height: 1.2;
+        font-size: 2rem;
+    }
+.putih{
+    position: relative;
+    width: 60%;
+    height: 20rem;
+    padding: 1rem 2rem;
+    font-family: 'Open Sans',sans-serif;
+    line-height: 2rem;
+    font-size: 1.125rem;
+}
+
+    .putihh{
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+.ijomuda{
+    position: relative;
+    width: 60%;
+    float: right;
+    height: 20rem;
+    padding: 1rem 2rem;
+    background-color: #a0b9bd;;
+    color: white;
+    line-height: 2rem;
+    font-family: Roboto,sans-serif !important;
+    font-size: 1.125rem;
+}
+/* end of ke2 */
+
+    /* start ke3 */
+    .ke3{
+        position: relative;
+        display: flex;
+        width: 100%;
+        flex-wrap:wrap ;
+    }
+
+    .ke3 img{
+        width: 33.3%;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    /* end of ke3 */
+
+
+/* start of ke4 */
+.ke4{
+    position: relative;
+    background-color: #a0b9bd;
+    box-sizing: border-box;
+}
+
+.ke4 .top{
+    padding:  3rem 3rem;
+}
+
+    .ke4 .container{
+        display: flex;
+        flex-wrap: wrap;
+        box-sizing: border-box;
+    }
+
+.kiri,  .tengah{
+    width: 40%;
+    color: #ffffff;
+}
+
+    .kanan {
+        width:20% ;
+        color: #ffffff;
+    }
+
+.ke4 .kiri img{
+    max-width: 28rem;
+    margin-left: 7rem;
+}
+
+    .tengah {
+        padding: 0 2rem;
+        order: 2;
+        font-weight: 900;
+        font-size: 1.8rem;
+        font-family: Roboto,sans-serif;
+        font-weight: 900;
+    }
+
+.tengah h1{
+    padding-top: 17rem;
+}
+
+    .kiri{
+        position: relative ;
+        order: 1;
+    }
+
+.kanan{
+    order: 3;
+    font-family: Roboto,sans-serif;
+}
+
+    .kanan h3{    
+        font-weight: 900;
+        font-size: 1.25rem;
+        letter-spacing: 2px;
+        line-height: 1.2;
+        color: #ffffff;
+    }
+/* end of ke4 */
+
+    /* /* start of ke5 * */
+    .ke5 {
+        position: relative;
+        box-sizing: border-box;
+    }
+        .ke5 .container{
+            display: flex;
+            flex-wrap: wrap;
+            box-sizing: border-box;
+        }
+
+    .ke5 .tengahh, 
+    .ke5 .kanan{
+        position: relative;
+        width: 35%;
+    }
+
+        .ke5 .kiri{
+            position: relative;
+            width: 30%;
+            max-height: 100%;
+            background-color: black;
+            order: 1;
+        }
+
+    .ke5 .kiri h2{
+        position: absolute;
+        font-family : "Open Sans", sans-serif;
+        font-size: 3rem;
+        bottom: 0;
+        margin-left:3rem ;
+    }
+
+
+        .ke5 .tengahh{
+            order: 2;
+        }
+
+    .ke5 .tengahh img{
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+        .ke5 .kanan{
+            order: 3;
+        }
+
+    .ke5 .kanan .kontener{
+        padding: 1rem;
+        height: 100%;
+    }
+
+        .ke5 .kanan .kontener #ke1{
+            padding-top: .1rem;
+            color: black;
+            font-family: 'Open Sans',sans-serif;
+            font-weight: bolder;
+            font-size: 1.2rem;
+            letter-spacing: .2rem;
+            text-transform: uppercase;
+        }
+
+    .ke5 .kanan .kontener .gambar{
+    max-width: 100%;
+    width: 22rem;
+    margin: 0 auto;
+    }
+        .ke5 .kanan .kontener img{
+            width: 100%;
+            height: auto;
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+    .ke5 .kanan .kontener #ke2{
+    color: rgb(153, 153, 153);
+    font-family: 'Open Sans',sans-serif;
+    font-size: 1rem;
+    line-height: 1.6;margin-bottom: 0;
+    }
+
+    /* end of ke 5/ */
+
+
+/* start of ke6 */
+.ke6{
+    position: relative;
+    background-color: #7d9ca1 ;
+}
+
+.ke6 .container {
+    display: flex;
+    flex-wrap: wrap;box-sizing: border-box;
+    
+}
+
+.ke6 .kanan,
+.ke6 .kiri{
+    width: 50%;
+    font-family: "Open Sans", sans-serif;
+}
+
+.ke6 .kanan .ckanan{
+    max-width: 38rem;
+    margin: 3.5em 0;
+}
+
+.ke6 .kanan .ckanan h1{
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.ke6 .kanan .ckanan h3{
+    font-family :Roboto, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+.ke6 .kanan .ckanan p{
+    font-family: "Open Sans", sans-serif;
+    font-family: 1rem;
+    line-height: 25.6px;
+}
+
+.ke6 .kiri .ckiri{
+    max-width: 40rem;
+    margin: 3rem 3rem 3rem 12rem;
+}
+.ke6 .kiri .ckiri img{
+    max-width: 100%;
+    width: 70rem;
+}
+/* end of ke6 */
+
+/* start of ke7 */
+.ke7{
+    position: relative;
+    background-color: black;
+    box-sizing: border-box;
+}
+.ke7 .containerr {
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+.ke7 .containerr .left,
+.ke7 .containerr .center,
+.ke7 .containerr .right{
+    width: 33.3%;
+    margin-top: 7rem;
+    height: 30rem;
+    color: white;
+}
+.ke7 .containerr .left .cleft{
+    padding: 2rem;
+}
+.ke7 .containerr .left .cleft h1{
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 1.1;
+    font-family: Roboto,sans-serif;
+}
+
+
+.ke7 .containerr .left .cleft .logo{
+    width: 100%;
+    font-size: 1.8rem;
+    color: white;
+}
+.ke7 .containerr .left .cleft .logo i{
+    letter-spacing: 1rem;
+}
+.ke7 .containerr .left .cleft .logo a{
+    color: white;
+}
+.nomorr{
+    margin-top: 5rem;
+}
+
+#nomor{
+    font-size: 2rem;
+    line-height: 1;
+    letter-spacing: .2rem;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 100;
+}
+
+.ke7 .containerr .center img{
+    width: 100%;
+    height: 30rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    clip-path: inset(1px 0 0 0);
+}
+
+.ke7 .containerr .right {
+    background-color: white;
+    color: black;
+}
+
+.ke7 .containerr .cright{
+    padding: 2rem;
+    margin-top: 6rem;
+}
+
+.ke7 .containerr .right h1{
+    font-weight: 100;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.125rem;
+    line-height: 2;
+}
+
+/* end of ke7 */
+
+
+/* start of ke8 */
+.ke8 {
+    position: relative;
+    height: auto;
+    background-color: rgb(51, 50, 50);
+    height: 7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.ke8 .kumpulan a,
+.ke8 .kumpulan p{
+    float: left;
+    margin: .2rem;
+    color: rgb(7, 175, 153);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.ke8 .kumpulan p{
+    color: white;
+}
+
+.ke8 .kumpulan a:hover{
+    color: #fff;
+    text-decoration: none;
+}
+
+/* end of ke8 */
+
+@media (max-width : 1450px){
+    /* start of ke3 */
+    .putihh{
+        margin-top: -.9rem;
+    }
+    /* end of ke3 */
+
+/* start ke 4 */
+.ke4 .kiri img{
+    max-width: 100%;
+    max-height: 100%;
+    margin-left: 0;
+}
+/* endn of ke4 */
+
+    /* start of ke7 */
+    .ke7 .containerr .center img{
+        width: 100%;
+        height: 30rem;
+        background-repeat: no-repeat;
+        background-size: cover;
+        clip-path: inset(1px 0 0 0);
+    }
+
+    /* end of ke7 */
+
+}
+
+
+@media (max-width : 1246px){
+    /* ke2 */
+    .putih , .ijomuda {
+        height: 20rem;
+    }
+    .putihh{
+        width: 100%;
+        font-size: .9rem;
+    }
+    /* end of ke2 */
+
+/* start ke4 */
+.ke4 .kiri img{
+    max-width: 100%;
+    max-height: 100%;
+    margin-left: 0;
+}
+
+.ke4 .tengah h1{
+    font-size: 4vw;
+    padding: 0;
+    margin-top: 15rem;
+}
+
+.ke4 .kanan h3{
+    font-size: 1.125vw;
+}
+/* end of ke4 */
+
+    /* start of ke6 */
+    .ke6 .kiri .ckiri{
+        margin: 3em 2rem 2rem 2rem;
+        max-width: 30rem;
+    }
+
+    .ke6 .kanan .ckanan{
+        margin: 2em 2rem;
+        max-width: 32rem;
+        padding: 0 3rem;
+    }
+    /* end of ke6 */
+
+/* start of ke7 */
+.ke7 .containerr .left .cleft h1{
+    font-weight: 900;
+    font-size: 4vw;
+    line-height: 1.1;
+    font-family: Roboto,sans-serif;
+}
+
+.ke7 .containerr .left .cleft .logo{
+    width: 100%;
+    font-size: 2vw;
+    color: white;
+}
+.nomorr{
+    margin-top: 5rem;
+}
+
+#nomor{
+    font-size: 2vw;
+    line-height: 1;
+    letter-spacing: .2rem;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 100;
+}
+
+.ke7 .containerr .center img{
+    width: 100%;
+    height: 30rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    clip-path: inset(1px 0 0 0);
+}
+
+.ke7 .containerr .cright{
+    padding: 2vw;
+    margin-top: 4vh;
+}
+.ke7 .containerr .cright{
+    padding: 2rem;
+    margin-top: 6rem;
+}
+.ke7 .containerr .right h1{
+    font-weight: 100;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.5vw;
+    line-height: 2;
+}
+/* end of ke7 */
+}
+
+@media (max-width : 990px){
+    /* ke2 */
+    .ke2 .item .gb3{
+        margin-top: -8rem;
+        font-size: 1.5rem;
+    }
+
+    .ke2 .item {
+        width: 100%;
+    }
+
+    .ke2 .putih , .ke2 .ijomuda{
+        width: 100%;
+        height: auto;
+    }
+    /* end of ke2 */
+
+/* start ke3 */
+.ke3 img{
+    width: 50%;
+}
+/* end of ke3 */
+
+
+    /* start of ke4 */
+    .ke4 .tengah h1{
+        margin-top: 9rem;
+        font-size: 2rem;
+    }
+
+    .ke4 .kanan h3{
+        font-size: 1.125vw;
+    }
+    /* end of ke4 */
+
+/* start of ke5 */
+.ke5 .kiri,
+.ke5 .tengahh{
+    width: 50%;
+}
+
+    .ke5 .kiri h2{
+        font-size: 5vw;
+    }
+.ke5 .kanan{
+    width: 100%;
+}
+
+    .ke5 .kanan .kontener .gambar{
+        width: 33rem;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+.ke5 .kiri,
+.ke5 .tengahh{
+    width: 50vw;
+    height: 50vh;
+}
+/* end of ke5 */
+
+    /* start  of ke6 */
+    .ke6 .container .kiri,
+    .ke6 .container .kanan{
+        width: 100%;
+    }
+
+    .ke6 .container .kiri .ckiri{
+        max-width: 38rem;
+        margin: 0 10rem;
+    }
+
+    .ke6 .container .kanan .ckanan{
+        max-width: 38rem;
+        margin:0 10rem;
+        padding-bottom: 2rem;
+    }
+    /* end of ke6 */
+
+/* start of ke7 */
+.ke7 .containerr .left,
+.ke7 .containerr .center{
+    width: 50%;
+}
+.ke7 .containerr .left .cleft h1{
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 1.1;
+    font-family: Roboto,sans-serif;
+}
+
+
+.ke7 .containerr .left .cleft .logo{
+    width: 100%;
+    font-size: 1.8rem;
+    color: white;
+}
+.ke7 .containerr .left .cleft .logo i{
+    letter-spacing: 1rem;
+}
+.nomorr{
+    margin-top: 5rem;
+}
+
+#nomor{
+    font-size: 2rem;
+    line-height: 1;
+    letter-spacing: .2rem;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 100;
+}
+.ke7 .containerr .right{
+    width: 100%;
+    margin: 0;
+    height: auto;
+    padding: 0;
+}
+.ke7 .containerr .right .cright{
+    margin: 0;
+}
+.ke7 .containerr .right .cright h1{
+    font-size: 1rem;
+
+}
+}
+
+
+@media (max-width : 815px){
+
+/* ke1 */
+.ke1 .kanan {
+    top: 4rem;
+}
+/* end of ke1 */
+
+    /* start ke2 */
+    .ke2 .item {
+        width: 100%;
+    }
+    /* end of ke2 */
+
+/* statr of ke4 */
+.ke4 .tengah h1{
+    margin-top: 9rem;
+    font-size: 3vw;
+}
+/* end of ke4 */
+
+    /* start of ke6 */
+    
+
+    .ke6 .container .kanan .ckanan, 
+    .ke6 .container .kiri .ckiri{
+        margin: 0 5rem;
+    }
+    /* end of ke6 */
+
+/* start of ke7 */
+.ke7 .containerr .left .cleft h1{
+    font-weight: 900;
+    font-size: 6vw;
+    line-height: 1.1;
+    font-family: Roboto,sans-serif;
+}
+
+
+.ke7 .containerr .left .cleft .logo{
+    width: 100%;
+    font-size: 3vw;
+    color: white;
+}
+.ke7 .containerr .left .cleft .logo i{
+    letter-spacing: 1rem;
+}
+.nomorr{
+    margin-top: 5rem;
+}
+
+#nomor{
+    font-size: 4vw;
+    line-height: 1;
+    letter-spacing: .2rem;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 100;
+}
+/* end of ke7 */
+}
+
+@media (max-width : 567px){
+
+/* ke1 */
+.ke1 .kanan {
+    right: 4rem;
+    top: 2rem;
+    width: 8rem;
+}
+
+.ke1 .bawah {
+left:  1rem;
+}
+/* akhir dari ke1 */
+
+    /* ke2 */
+    .ke2 .item .gb1 p{
+        font-size: 8rem;
+    }
+    /* end of ke2 */
+
+/* start of ke3 */
+.ke3 img{
+    width: 100%;
+}
+/* end of ke3 */
+
+    /* start of ke4 */
+    .ke4 .kiri,
+    .ke4 .tengah,
+    .ke4 .kanan
+    {
+        width: 100%;
+        margin-left: 0;
+        padding: 0;
+    }
+
+    .ke4 .tengah h1{
+        font-size: 7vw;
+        padding: 0;
+        margin-top: 2rem;
+        margin-left: 0;
+    }
+
+    .ke4 .kanan h3{
+        font-size: 4vw;
+    }
+    /* end of ke4 */
+
+/* start of ke5 */
+.ke5 .kiri,
+.ke5 .tengahh,
+.ke5 .kanan{
+    width: 100%;
+}
+
+.ke5 .kiri{
+    height: 30rem;   
+}
+
+.ke5 .kiri h2{
+    font-size: 7vw;
+}
+/* end of ke5 */
+
+
+    /* start of ke6 */
+    .ke6 .container .kanan .ckanan, 
+    .ke6 .container .kiri .ckiri{
+        margin: 0 2rem;
+    }
+    .ke6 .kanan .ckanan h1{
+        font-size: 9vw;
+        font-weight: 700;
+    }
+    .ke6 .kanan .ckanan h3{
+        font-family :Roboto, sans-serif;
+        font-size: 3vw;
+        font-weight: 400;
+    }
+    .ke6 .kanan .ckanan p{
+        font-family: "Open Sans", sans-serif;
+        font-family: 1rem;
+        line-height: 25.6px;
+        font-size: 3vw;
+        font-weight: 200;
+    }
+    /* end of ke6 */
+
+/* start of ke7 */
+.ke7 .containerr .left,
+.ke7 .containerr .center,
+.ke7 .containerr .right{
+    width: 100%;
+}
+
+.ke7 .containerr .left{
+    order: 3;
+    text-align: center;
+    margin: 0;
+}
+.ke7 .containerr .left .cleft h1{
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 1.1;
+    font-family: Roboto,sans-serif;
+}
+
+
+.ke7 .containerr .left .cleft .logo{
+    width: 100%;
+    font-size: 2rem;
+    color: white;
+}
+.ke7 .containerr .left .cleft .logo i{
+    letter-spacing: 1rem;
+}
+.nomorr{
+    margin-top: 5rem;
+}
+
+#nomor{
+    font-size: 3rem;
+    line-height: 1;
+    letter-spacing: .2rem;
+    font-family: 'Open Sans',sans-serif;
+}
+.ke7 .containerr .center {
+    order: 1;
+    margin: 0;
+}
+.ke7 .containerr .right {
+    order: 2;
+}
+
+/* end of ke7 */
+}
+
+@media (max-width: 480px){
+/* start of ke2 */
+    .ke1 .kanan {
+        width: 8rem;
+        top: 2rem;
+        right: 2rem;
+    }
+/* end of ke1 */
+
+    /* start of ke5 */
+    .ke5 .kiri{
+       height: 25rem;
+    }
+    /* end of ke5 */
+
+/* start of ke6 */
+.ke6 .container .kanan .ckanan, 
+.ke6 .container .kiri .ckiri{
+    margin: 0 0;
+    padding: 1rem;
+}
+/* emd of ke6 */
+
+    /* start of ke7 */
+    #nomor{
+        font-size: 9vw;
+        line-height: 1;
+        letter-spacing: .2rem;
+        font-family: 'Open Sans',sans-serif;
+    }
+    /* end of ke7 */
+
+/* start of ke8 */
+.ke8 .kumpulan a,
+.ke8 .kumpulan p{
+    font-size: 3.5vw;
+}
+/* end of ke8 */
+}
